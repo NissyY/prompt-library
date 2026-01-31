@@ -1,4 +1,4 @@
-import { Prompt } from '../entities/prompt.entity';
+import { Prompt } from '@/prompts/domain/entities/prompt.entity';
 
 export interface PromptQuery {
   category?: string;

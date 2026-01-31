@@ -12,14 +12,14 @@ import {
   NotFoundException,
 } from '@nestjs/common';
 import { ApiTags, ApiOperation, ApiResponse, ApiParam } from '@nestjs/swagger';
-import { CreatePromptUseCase } from '../../application/use-cases/create-prompt.use-case';
-import { GetPromptUseCase } from '../../application/use-cases/get-prompt.use-case';
-import { GetPromptsUseCase } from '../../application/use-cases/get-prompts.use-case';
-import { UpdatePromptUseCase } from '../../application/use-cases/update-prompt.use-case';
-import { DeletePromptUseCase } from '../../application/use-cases/delete-prompt.use-case';
-import { CreatePromptDto } from '../../application/dto/create-prompt.dto';
-import { UpdatePromptDto } from '../../application/dto/update-prompt.dto';
-import { PromptQueryDto } from '../../application/dto/prompt-query.dto';
+import { CreatePromptUseCase } from '@/prompts/application/use-cases/create-prompt.use-case';
+import { GetPromptUseCase } from '@/prompts/application/use-cases/get-prompt.use-case';
+import { GetPromptsUseCase } from '@/prompts/application/use-cases/get-prompts.use-case';
+import { UpdatePromptUseCase } from '@/prompts/application/use-cases/update-prompt.use-case';
+import { DeletePromptUseCase } from '@/prompts/application/use-cases/delete-prompt.use-case';
+import { CreatePromptDto } from '@/prompts/application/dto/create-prompt.dto';
+import { UpdatePromptDto } from '@/prompts/application/dto/update-prompt.dto';
+import { PromptQueryDto } from '@/prompts/application/dto/prompt-query.dto';
 
 @ApiTags('prompts')
 @Controller('prompts')

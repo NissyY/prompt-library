@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
-import { Prompt } from '../../domain/entities/prompt.entity';
-import { PromptRepository, PromptQuery } from '../../domain/repositories/prompt.repository';
-import { PromptQueryDto } from '../dto/prompt-query.dto';
+import { Prompt } from '@/prompts/domain/entities/prompt.entity';
+import { PromptRepository, PromptQuery } from '@/prompts/domain/repositories/prompt.repository';
+import { PromptQueryDto } from '@/prompts/application/dto/prompt-query.dto';
 
 @Injectable()
 export class GetPromptsUseCase {

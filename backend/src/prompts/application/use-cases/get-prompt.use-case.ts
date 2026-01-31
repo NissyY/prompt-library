@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
-import { Prompt } from '../../domain/entities/prompt.entity';
-import { PromptRepository } from '../../domain/repositories/prompt.repository';
+import { Prompt } from '@/prompts/domain/entities/prompt.entity';
+import { PromptRepository } from '@/prompts/domain/repositories/prompt.repository';
 
 @Injectable()
 export class GetPromptUseCase {

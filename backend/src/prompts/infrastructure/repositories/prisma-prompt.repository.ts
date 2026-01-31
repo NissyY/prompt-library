@@ -1,11 +1,11 @@
 import { Injectable } from '@nestjs/common';
 import { PrismaService } from '@/prisma/prisma.service';
-import { Prompt } from '../../domain/entities/prompt.entity';
+import { Prompt } from '@/prompts/domain/entities/prompt.entity';
 import {
   PromptRepository,
   PromptQuery,
   CreatePromptInput,
-} from '../../domain/repositories/prompt.repository';
+} from '@/prompts/domain/repositories/prompt.repository';
 import { Prompt as PrismaPrompt } from '@/generated/prisma';
 
 @Injectable()

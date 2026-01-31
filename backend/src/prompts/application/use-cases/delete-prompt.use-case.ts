@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { PromptRepository } from '../../domain/repositories/prompt.repository';
+import { PromptRepository } from '@/prompts/domain/repositories/prompt.repository';
 
 @Injectable()
 export class DeletePromptUseCase {
